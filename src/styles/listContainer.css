@@ -1,0 +1,31 @@
+.listaCategorias {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: rgba(240, 184, 184, 0.295);
+    min-height: 40px;
+}
+
+.listaCategorias li .link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.contenedorProductos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 250px;
+    flex-wrap: wrap;
+    margin-bottom: 500px;
+    gap: 30px;
+}
+
+.loading{
+    width: 200px;
+    margin: 0px auto;
+}
